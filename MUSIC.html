@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="sidebar">
+      <div class="logo">
+        <a href="#">
+          <img src="MUSIC LOGO.jpg" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fa fa-home"></span>
+              <span>Home</span>
+            </a>
+          </li>
+         
+          <ul class="menu">
+            <!-- Add a list item for the search icon -->
+            <li id="searchItem">
+                <a href="#">
+                    <span class="fa fa-search"></span>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+        <script src="search.js"></script>
+        <head>
+          <link rel="stylesheet" href="./menu.css"> <!-- Link your CSS file --></head>
+        <ul class="menu">
+          <!-- Add a list item for "Your Library" -->
+          <li id="libraryItem">
+              <a href="#">
+                  <span class="fa fas fa-book"></span>
+                  <span>Your Library</span>
+              </a>
+          </li>
+      </ul>
+  
+      <!-- List to display names -->
+      <ul id="nameList"></ul>
+  
+      <!-- Your other HTML content -->
+  
+      <script src="library.js"></script>
+      </div>
+
+      <div class="navigation">
+        <head><link rel="stylesheet" href="playlist.css"></head>
+        <ul>
+          <li>
+            <a href="#" id="createPlaylistLink">
+              <span class="fa fas fa-plus-square"></span>
+              <span>Create Playlist</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    
+      <ul class="playlist">
+        <!-- Playlist items will be added here -->
+      </ul>
+    
+      <script src="playlist.js"></script>
+
+          <li>
+            <a href="#">
+              <span class="fa fas fa-heart"></span>
+              <span>Liked Songs</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="policies">
+        <ul>
+          <li>
+            <a href="#">Cookies</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+
+    <div class="main-container">
+      <div class="topbar">
+        <div class="prev-next-buttons">
+          <button type="button" class="fa fas fa-chevron-left"></button>
+          <button type="button" class="fa fas fa-chevron-right"></button>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <head>
+              <meta charset="UTF-8">
+              <title>Premium</title>
+              <link rel="stylesheet" href="premium.css">
+            </head>
+            <body>
+              <ul>
+                <li>
+                  <a href="#" id="premium-link">Premium</a>
+                  <!-- Placeholder for premium details -->
+                  <div id="premium-details">
+                    <p>Amount: <span class="premium-amount">$50</span></p>
+                    <p>Duration: <span class="premium-duration">1 month</span></p>
+                  </div>
+                </li>
+              </ul>
+            
+              <script src="premium.js"></script>
+            </body>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Download</a>
+            </li>
+            <li class="divider">|</li>
+            <li>
+              <a href="signin.html">Sign Up</a>
+            </li>
+          </ul>
+          <button type="button"><a href="login.html">Login</a></button>
+        </div>
+      </div>
+
+      <div class="spotify-playlists">
+        <h2> VDS PLAYLISTS</h2>
+
+        <div class="list">
+          <div class="item">
+            <img src="hi-nanna_168925163500.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>HiNanna</h4>
+            <p>Nani & Mrunal top Hits....</p>
+            <head><link rel="stylesheet" href="nani.css"></head>
+            <audio controls>
+              <source src="[iSongs.info] 02 - Samayama.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <head><link rel="stylesheet" href="18pages.css"></head>
+            <img src="18-Pages-Telugu.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>18Pages</h4>
+            <p>Nikhil & Anupama Legendery hits....</p>
+            <audio controls>
+              <source src="[iSongs.info] 03 - Yedurangula Vaana.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="06-Nani-Krishnarjuna-Yudham-Movie-First-Look-ULTRA-HD-Posters-WallPapers.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>All out 2010s</h4>
+            <p>The biggest spmgs pf tje 2010s. Cover:...</p>
+            <audio controls>
+              <source src="[iSongs.info] 02 - I Wanna Fly.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="hello gury.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Rock Classics</h4>
+            <p>Rock Legends & epic songs that continue t...</p>
+            <audio controls>
+              <source src="Hello Guru Prema Kosame.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="kar.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Chill Hits</h4>
+            <p>Kick back to the best new and recent chill...</p>
+            <audio controls>
+              <source src="Nannu Nenu Adiga.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="an-1.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Viva Latino</h4>
+            <p>Today's top Latin hits elevando nuestra...</p>
+            <audio controls>
+              <source src="Hello Guru Prema Kosame.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="rowdyboys.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Mega Hit Mix</h4>
+            <p>A mega mix of 75 favorites from the last...</p>
+            <audio controls>
+              <source src="Hello Guru Prema Kosame.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>All out 80s</h4>
+            <p>The biggest songs of the 1090s.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="spotify-playlists">
+        <h2>Focus</h2>
+        <div class="list">
+          <div class="item">
+            <img src="rowdyboys.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Peaceful Piano</h4>
+            <p>Relax and indulge with beautiful piano pieces</p>
+            <audio controls>
+              <source src="Brindavanam.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="shatamanam.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Deep Focus</h4>
+            <!-- <h5>listen</h5> -->
+            <p>Keep calm and focus with ambient and pos...</p>
+            <!-- <p1>listen</p1> -->
+            <audio controls>
+              <source src="[iSongs.info] 01 - Mellaga Tellarindoi.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="zindagi.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Instrumental Study</h4>
+            <p>Focus with soft study music in the...</p>
+            <audio controls>
+              <source src="Whatamma-What-Is-This-Amma--From-Vunnadhi-Okate-Zindagi--Devi-Sri-Prasad.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="tej 1.webp" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>chill lofi study beats</h4>
+            <p>The perfect sai dharam tej & anupama...</p>
+            <audio controls>
+              <source src="[iSongs.info] 01 - Andhamaina Chandhamaama.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="a aa.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Coding Mode</h4>
+            <p>Dedicated to all </p>
+            <audio controls>
+              <source src="[iSongs.info] 02 - Rang De.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          
+          <div class="item">
+            <img src="anu.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Focus Flow</h4>
+            <p> hip hop beats and interesting......</p>
+            <audio controls>
+              <source src="[iSongs.info] 03 - Urime Manase.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Calm Before The Storm</h4>
+            <p>Calm before the storm music.</p>
+          </div>
+
+          <div class="item">
+            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Beats to think to</h4>
+            <p>Focus with deep techno and tech house.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="spotify-playlists">
+        <h2>Mood</h2>
+        <div class="list">
+          <div class="item">
+            <img src="butterfly.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Mood Booster</h4>
+            <p>Get happy with today's dose of feel-good...</p>
+            <audio controls>
+              <source src="[iSongs.info] 02 - Hey Pandu.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="theen-1.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Feelin' Good</h4>
+            <p>Feel good with this positively timeless ...</p>
+            <audio controls>
+              <source src="Gelupu-Thalupule-Sreerama-Chandra-Mynampati.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="jersey.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Dark & Stormy</h4>
+            <p>Beautifully dark, dramatic tracks.</p>
+            <audio controls>
+              <source src="[iSongs.info] 05 - Needa Padadhani.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="shyam.jpeg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Feel Good Piano</h4>
+            <p>Happy vibes for an upbeat morning.</p>
+            <audio controls>
+              <source src="Rise-of-Shyam-Ringtone.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="vikram.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Feelin' Myself</h4>
+            <p>The hip-hop playlist that's a whole mood...</p>
+            <audio controls>
+              <source src="Once-Upon-a-Time-Ringtone.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="anupama.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Chill Tracks</h4>
+            <p>Softer kinda dance and very interest.....</p>
+            <audio controls>
+              <source src="Whatamma-What-Is-This-Amma--From-Vunnadhi-Okate-Zindagi--Devi-Sri-Prasad.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div class="item">
+            <img src="anupama.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Feel-Good Indie Rock</h4>
+            <p>The best indie rock vibes - classic and...</p>
+          </div>
+
+          <div class="item">
+            <img src="anupama.jfif" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>idk.</h4>
+            <p>idk.</p>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+
+      <div class="preview">
+        <div class="text">
+          <h6>Preview of Spotify</h6>
+          <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+          <button type="button">Sign up free</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/23cecef777.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>
